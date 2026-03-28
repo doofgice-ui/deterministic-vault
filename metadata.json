@@ -1,0 +1,5 @@
+{
+  "name": "Deterministic Vault v4.5",
+  "description": "基于 HMAC-SHA256 的安全客户端确定性密码生成器。使用相同的主密钥和帐户 ID 每次都能生成相同的密码。",
+  "requestFramePermissions": []
+}
