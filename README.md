@@ -1,4 +1,4 @@
-# 确定性密码生成器 (Deterministic Vault)
+# 确定性密码生成器 (Deterministic Vault) v4.5
 
 **你是否有这样一个烦恼：**
 
