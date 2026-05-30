@@ -45,24 +45,6 @@ export default function App() {
       <main className="w-full max-w-[480px] animate-fade-in-up" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
         <PasswordForm />
       </main>
-
-      <footer className="mt-12 text-center space-y-3 opacity-60 animate-fade-in-up" style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
-        <p className="text-xs text-slate-400 dark:text-slate-500 font-medium">
-          Deterministic Vault v4.8
-        </p>
-        <p className="text-[10px] text-slate-300 dark:text-slate-600 uppercase tracking-widest">
-          Secure • Stateless • Simple
-        </p>
-        <a 
-          href="https://github.com/doofgice-ui/deterministic-vault" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="inline-flex items-center justify-center gap-1 text-xs text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-400 transition-colors"
-        >
-          <Github size={12} />
-          <span>GitHub Repository</span>
-        </a>
-      </footer>
     </div>
   );
 }
